@@ -1,0 +1,106 @@
+.homeThreeConatiner {
+    background-image: url("../../assests/BG\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+
+.homeThreecontents {
+    margin: 0rem 10rem 0 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bestOffersHead {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 83px;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+}
+
+.offerListText {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.58px;
+    line-height: 34px;
+}
+
+.allOffersDeals {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.offersList {
+    display: flex;
+
+
+}
+
+img.offerCard {
+    height: 287px;
+}
+
+img.offerCardImg {
+    height: 270px;
+}
+
+.allOffersText {
+    color: #F67E03;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    /* text-align: right; */
+}
+
+.allOffersDeals {
+    display: flex;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .allOffersText {
+
+        background: white;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 559px) {
+    img.offerCardImg {
+        min-height: 222px !important;
+    }
+
+
+
+    img.offerCard {
+        min-height: 230px !important;
+    }
+}
+
+@media only screen and (max-width: 859px) {
+
+    .allOffersText {
+
+        background: white;
+        padding: 5px;
+    }
+
+    .homeThreecontents {
+        margin: 6rem 1rem 36px 5rem;
+        padding: 1rem;
+    }
+
+}
